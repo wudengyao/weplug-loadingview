@@ -1,0 +1,13 @@
+<!--签到成功提示框  -->
+<view  class='sign-in'>
+
+  <view class='sign-in-head'>
+    <image class="avatar-url" src='/images/load2.gif'></image>
+  </view>
+<view class='load-text'>
+影像加载中...
+</view>
+<view class='sign-text' catchtap="onCancelFilm"  >
+    <view class = "cancel" bind:tap="onCancel">取消</view>
+  </view>
+</view>

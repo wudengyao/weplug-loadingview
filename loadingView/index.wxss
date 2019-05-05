@@ -1,0 +1,59 @@
+/***签到通知*/
+
+.sign-in {
+  z-index: 100;
+  width: 40%;
+  margin: 0 auto;
+  top: 40%;
+  left: 30%;
+  position:fixed;
+
+  text-align: center;
+  border-radius: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+/**签到头像*/
+
+.sign-in-head {
+  background-color: white;
+  border-radius: 20rpx 20rpx 0 0;
+}
+
+.sign-in-head image {
+  width: 140rpx;
+  height: 140rpx;
+  margin: 0 auto;
+}
+
+.sign-in text {
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+
+.sign-in .sign-text {
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 0rpx 0rpx 20rpx 20rpx;
+  padding-bottom: 10rpx;
+}
+
+.sign-in .cancel {
+  border-radius: 20rpx;
+  background-color: #42a2eb;
+  padding-bottom: 5rpx;
+  padding-top: 5rpx;
+  margin-left: 65rpx;
+  margin-right: 65rpx;
+  font-size: 14px;
+}
+
+.load-text {
+  background-color: white;
+  font-size: 12px;
+  margin-top: -30rpx;
+  padding-bottom: 10rpx;
+  color: grey;
+}
