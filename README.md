@@ -24,3 +24,6 @@
 <v-loadingview bind:onCancel="onCancelFilm"/>
 ```
 
+
+## 截图
+![](https://github.com/wudengyao/weplug-loadingview/blob/master/image/result.png)
